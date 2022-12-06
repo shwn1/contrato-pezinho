@@ -1,0 +1,104 @@
+@charset "UTF-8";
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html{
+    overflow-x: hidden;
+  }
+
+body{
+    margin: 0px;
+    padding: 0px;
+
+
+    background: url(pezinho.jpeg) no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+header{
+    width: 100vw;
+    padding: 10px;
+
+    background: url(banner.jpg) no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+    box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.547);
+    
+}
+
+header > h1{
+    font-size: 60px;
+    text-align: center;
+    color: red;
+    text-shadow: 1px 1px 8px rgba(0, 0, 0, 0.547);
+}
+
+main{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+
+    
+}
+
+main > section{
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+
+width: 80%;
+height: 100%;
+margin-top: 20px;
+margin-bottom: 20px;
+
+
+background-color: rgba(0, 0, 0, 0.349);
+color: white;
+box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.547);
+}
+
+h1.titulo{
+    text-align: center;
+    color: white;
+}
+
+fieldset.cu{
+    width: 20%;
+    margin: auto;
+}
+fieldset.gostosa{
+    width: 40%;
+    margin: auto;
+}
+fieldset.apelido{
+    width: 50%;
+    margin: auto;
+}
+fieldset.duo{
+    width: 26%;
+    margin: auto;
+
+    
+
+}
+fieldset.duo > input >{
+color: black;
+}
+
+h1.amo{
+    text-align: center;
+    margin-top: 7%;
+    color: red;
+    text-shadow: 1px 1px 8px rgba(0, 0, 0, 0.547);
+    font-size: 35px;
+}
+
+h1.duozinho{
+    text-align: center;
+}
+
